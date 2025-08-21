@@ -37,17 +37,16 @@ Below is the **circuit connection diagram** of the Smart Health Monitoring Syste
 - **DS18B20 Temperature Sensor** – Body temperature  
 - **DHT11 Sensor** – Humidity and ambient temperature  
 - **16x2 LCD / OLED Display** – Displaying real-time values  
-- **Cloud Platform** – ThingSpeak / Firebase / Blynk  
+- **Cloud Platform** – ThingSpeak  
 
 ---
 
 ##  System Architecture
 1. **Data Acquisition** – Sensors collect health parameters.  
 2. **Processing** – ESP32 filters, processes, and analyzes signals.  
-3. **Display** – Real-time readings shown on LCD/OLED.  
-4. **Alerts** – Buzzer/LED warning for abnormal values.  
-5. **Cloud Storage** – Data sent to cloud for monitoring & reports.  
-6. **Remote Access** – Doctors/guardians can track patient health remotely.  
+3. **Display** – Real-time readings shown on LCD/OLED.    
+4. **Cloud Storage** – Data sent to cloud for monitoring & reports.  
+5. **Remote Access** – Doctors/guardians can track patient health remotely.  
 
 ---
 
